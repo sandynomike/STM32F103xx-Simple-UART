@@ -1,6 +1,6 @@
 # STM32F103xx-Simple-UART
 
-This project contains the code required to get working serial character IO via the STM32 UART (RS-232).<br>
+This project contains the code required to get working serial (RS-232) character IO via the STM32 USART.<br>
 <br>
 USART2 of the STM32F103xx is used because USART1 might be used for serial programming of the device.<br>
 <br>
