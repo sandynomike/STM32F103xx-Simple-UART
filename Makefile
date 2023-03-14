@@ -9,7 +9,12 @@ TARGET    = CMSIS-Simple-UART
 SOURCE    = main
 STARTUP   = startup_stm32f103c8tx
 FLASHER   = ~/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI
-FLASHPORT = /dev/ttyUSB0
+
+Uncomment this one if using a USB-SERIAL dongle for programming
+#FLASHPORT = /dev/ttyUSB0
+
+Uncomment this one if using a ST-LINK V2 programmer
+FLASHPORT = SWD
 
 CC = arm-none-eabi-gcc
 
